@@ -1,0 +1,411 @@
+/*****************************/
+/*  HEADER */
+/*****************************/
+
+.header{
+    position: relative;
+}
+
+
+/******************************************/
+/*                   NAVBAR              */
+/*****************************************/
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.1);
+    padding: 1rem 3.6rem;
+    z-index: 9998;
+
+}
+
+.nav-log img{
+    width: 1rem;
+}
+
+.nav-btn button{
+    padding: 1rem 2rem;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 50rem;
+    cursor: pointer;
+}
+
+.nav-btn button:hover{
+    background-color: #e4af00;
+    border: none;
+    color: #fff;
+}
+
+.nav-logo a{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.main-nav-list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.main-nav-list a:link,
+.main-nav-list a:visited{
+    text-decoration: none;
+    margin-left: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.6em;
+    color: #333;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.main-nav-list a:hover,
+.main-nav-list a:active{
+    background-color: #e4af00;
+    border-radius: 50rem;
+    color: #fff;
+}
+
+
+/*****************************/
+/*     MOBILE NAVIGATION     */
+.mobile-nav-btn{
+    background: none;
+    border: none;
+    display: none;
+    z-index: 10000;
+}
+.mobile-nav-btn svg{
+    width: 2rem;
+}
+
+.close-outline{
+    display: none;
+}
+
+
+
+
+.sticky{
+    position: fixed;
+    top: 0;
+    height: 6rem;
+    background-color: #fff;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 0.4rem 0.8rem rgba(241, 241, 241, 0.04);
+}
+
+
+
+/******************************************/
+/*              SECTION HERO              */
+/*****************************************/
+
+
+
+.hero-discription{
+    align-self: center;
+}
+
+.section-hero{
+    padding: 3.2rem 0;
+}
+
+.hero-pic{
+    display: flex;
+    justify-content: end;
+}
+
+.hero-pic img{
+    width: 80%;
+}
+
+.hero-btn{
+    display: flex;
+    gap: 0.8rem;
+    margin: 3rem 0;
+}
+.btn, .btn-main{
+    border-radius: 50rem;
+    padding: 1.2rem 2.4rem;
+    border: 0.2rem solid black;
+    transition: 0.3s;
+    font-size: 1.8rem;
+}
+
+.bt{
+    margin-bottom: 10rem;
+}
+
+.black{
+    background-color: #000;
+    color: #fff;
+}
+
+.white{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.black:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.white:hover{
+    background-color: #000;
+    color: #fff;
+    
+
+}
+
+.link-box{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+
+/******************************************/
+/*             SECTION GRADE              */
+/*****************************************/
+
+
+.grade-box{
+    display: flex;
+    /* align-items: center; */
+    gap: 2rem;
+
+}
+
+.big-text{
+    font-size: 5.2rem;
+    font-weight: 600;
+    color: #333;
+
+}
+
+.grade-line{
+    height: 90%;
+    border: 0.1rem solid #333;
+}
+
+
+
+
+/******************************************/
+/*            SECTION DESIGN              */
+/*****************************************/
+
+.section-design, .section-gallery{
+    margin: 12.8rem 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.section-design .line, .section-gallery .line{
+    width: 30;
+    border-bottom: 0.009rem solid #fff;
+}
+
+.section-design span, .section-design .paragraph{
+    color: #fff;
+}
+
+.design-img img{
+    width: 100%;
+}
+
+.st {
+    grid-row: 1 / 3;
+}
+
+.st img{
+    width: 100%;
+    height: 100%;
+}
+
+.design-img{
+    margin-top: 2rem;
+}
+
+
+
+/*****************************************/
+/*             SECTION WHAT              */
+/*****************************************/
+.section-what span, .section-gallery span, .section-testimonial span{
+    justify-content: center;
+}
+.card-icon {
+    margin-bottom: 1.6rem;
+}
+
+.what-card{
+    margin-top: 4rem;
+}
+
+.card-icon svg{
+    width: 4rem;
+    fill: #333;
+
+}
+
+.card-box{
+    box-shadow: 0 0 0.4rem 0.2rem rgba(173, 173, 173, 0.1);
+    padding: 4.8rem 3.2rem;
+}
+
+.card-box .heading-tertiary{
+    margin-bottom: 2.4rem;
+}
+
+.card-btn{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0.2rem 0.2rem 0.02rem rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+/*****************************************/
+/*           SECTION GALLERY             */
+/*****************************************/
+/* .section-gallery{
+    margin: 12.8rem 0;
+} */
+
+.gallery-img img{
+    width: 100%;
+    height: 50rem;
+}
+
+.sp1 {
+    grid-column: 1 / 4;
+}
+
+.sp9, .sp15{
+    grid-column: 1 / 3;
+}
+
+.sp10, .sp16{
+    grid-column: 3 / 5;
+}
+
+.sp12{
+    grid-row: 3;
+}
+
+.sp13{
+    grid-column: 2/5;
+}
+
+
+
+/*****************************************/
+/*         SECTION testimonial           */
+/*****************************************/
+.testimonial-img {
+    margin-top: 4rem;
+}
+
+
+/*****************************************/
+/*             SECTION FAQ            */
+/*****************************************/
+.section-FAQ{
+    margin-top: 9.6rem;
+}
+
+.faq{
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.1);
+    padding: 1.2rem 2.4rem;
+}
+
+.new{
+    grid-column: 2;
+    display: none;
+}
+
+.number{
+    font-size: 4.4rem;
+    font-weight: 700;
+    color: #ddd;
+}
+
+.FAQ-box{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.faq-icon svg{
+    width: 2.4rem;
+}
+
+
+.section-footer{
+    margin-top: 9.6rem;
+    background-color: #000;
+    color: #fff;
+    /* padding-bottom: 7rem; */
+}
+
+.footer-btn{
+    padding: 2.4rem 20%;
+    background: none;
+    border-radius: 50rem;
+    font-size: 3rem;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.footer-info{
+    margin-top: 2rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.footer-line{
+    margin: 2rem 0;
+    border: 0.1rem solid #fff;
+    width: 100%;
+}
+
+/* 
+--------01 TYPOGRAPHY SYSTEM 
+
+- FONT SIZE SYSTEM {px}
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 /98
+
+---- 07 WHITESPACE
+- SPACING SYSTEM {px}
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/
